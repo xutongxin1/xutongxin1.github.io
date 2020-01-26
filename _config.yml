@@ -182,9 +182,9 @@ sidebar:
     info: <br/>emodo # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=40862954&auto=0&height=32"></iframe>'
   social:
-  - title: rss
-    href: /atom.xml
-    class: 'fas fa-rss'
+  #- title: rss
+   # href: /atom.xml
+   # class: 'fas fa-rss'
   #- title:  # email
   #  href: mailto:wu.kan@foxmail.com
   # class: 'fas fa-envelope'
@@ -255,7 +255,8 @@ sidebar:
 
 index:
   showtag:
-  - api开发
+  - coding api
+  - pixiv api
   
   
 
