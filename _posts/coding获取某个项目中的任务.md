@@ -1,0 +1,155 @@
+---
+layout: post
+title: coding获取某个项目中的任务
+categories: coding-post
+background_music: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100 src="//music.163.com/outchain/player?type=2&id=554308724&auto=1&height=50"></iframe>'
+tag: coding api
+---
+
+# coding获取某个项目中的任务
+警告，该接口数据量巨大，如果程序不完善，请降低last_id或调整type
+
+## 接口URL
+https://\<team-name>.coding.net/api/project/\<project-id>/activities?last_id=999999999&type=all&user_filter=0
+请注意，是项目**id**非名称，id可通过获取项目列表查询
+
+## 请求方式
+GET
+
+## 请求Query参数
+
+参数|示例值|必填|参数描述
+---|---|--|---
+last_id|999|即到第999个任务的返回
+type|all|任务类型
+user_filter|0|？
+
+type有如下值可选：REQUIREMENT--需求；
+## 请求header参数:
+**cookie:eid**
+
+## 成功返回参数
+
+参数|示例值|参数描述
+-|-|-
+code|0|状态码
+data|···|具体数据
+data.issueType|REQUIREMENT|任务类型
+data.issueName|···|任务名
+data.project|···|从属项目名称
+data.user|···|项目负责人信息
+data.issueCode|123|任务id
+data.issueLog.content.priority|1|优先级，1为中
+data.issueLog.content.due_date|9999-01-01|截止日期（这里是指没有）
+data.issueLog.content.watchers|···|关注者信息
+data.issueLog.content.status|···|任务状态
+data.issueLog.content.iteration|···|从属迭代信息
+data.issueLog.content.working_hours|···|工作时长
+data.issueLog.creator|···|创建者信息
+
+数据太多，请各位自行解析
+
+
+## 成功示例数据
+```
+{
+	"code": 0,
+	"data": [
+		{
+			"issueType": "REQUIREMENT",
+			"issueName": "配置文件读取统一化测试",
+			"target_type": "Requirement",
+			"project": {
+				"name": "UnitAi-project",
+				"path": "/p/UnitAi-project",
+				"full_name": "xutongxin/UnitAi-project",
+				"display_name": "UnitAi-project"
+			},
+			"action": "create",
+			"created_at": 1579774119000,
+			"id": 3024312318,
+			"type": "LOG",
+			"user": {
+				"name": "xtx",
+				"path": "/u/yskcpdfwqeNA",
+				"avatar": "https://coding-net-production-static-ci.codehub.cn/WM-TEXT-AVATAR-shRyeVzAOcdIIllXCioP.jpg",
+				"global_key": "yskcpBsdeNA"
+			},
+			"issueCode": 35,
+			"issueLog": {
+				"id": 40421442,
+				"issueActivityId": 431231769,
+				"issueId": 21231687,
+				"action": "CREATE",
+				"target": "SELF",
+				"targetName": "问题",
+				"content": {
+					"name": "配置文件读取统一化测试",
+					"description": "",
+					"priority": {
+						"level": 1,
+						"name": "中"
+					},
+					"due_date": "9999-01-01",
+					"project_module": "",
+					"labels": [],
+					"watchers": [
+						{
+							"name": "xtx",
+							"id": 11232145,
+							"avatar": "https://coding-net-production-static-ci.codehub.cn/WM-TEXT-AVATAR-shRyeVzAOcdIIllXCioP.jpg"
+						}
+					],
+					"status": {
+						"color": "BLUE",
+						"name": "未开始",
+						"id": 6073419,
+						"type": "TODO"
+					},
+					"assignee": {
+						"global_key": "yskcpssdadNA",
+						"name": "xtx",
+						"id": 1192as35,
+						"avatar": "https://coding-net-production-static-ci.codehub.cn/WM-TEXT-AVATAR-shRyeVzAOcdIIllXCioP.jpg"
+					},
+					"attachments": [],
+					"working_hours": 0,
+					"iteration": {
+						"code": 10,
+						"name": "主界面编写"
+					},
+					"custom_fields": []
+				},
+				"creator": {
+					"id": 11das45,
+					"status": 1,
+					"globalKey": "yskcpBHeNA",
+					"avatar": "https://coding-net-production-static-ci.codehub.cn/WM-TEXT-AVATAR-shRyeVzAOcdIIllXCioP.jpg",
+					"name": "xtx",
+					"email": "26568230000@qq.com"
+				},
+				"createdAt": 1579774119000
+			}
+		}
+	}
+```
+
+## 失败返回参数
+
+参数|示例值|参数描述
+-|-|-
+code|1046|状态码
+msg|···|错误原因描述
+
+## 失败示例数据
+```
+{
+	"code": 1000,
+	"msg": {
+		"user_not_login": "用户未登录"
+	},
+	"data": {
+		"account_type": 0
+	}
+}
+```
