@@ -25,7 +25,7 @@ tag: 软件 教程 Genymotion
 ### 1.1：Win
 如果你不知道什么是Virtualbox，直接点包含就好
 
-![win](https://github.com/xutongxin1/xutongxin1.github.io/blob/master/picture/genymotion/G-1.PNG)
+![win](https://github.com/xutongxin1/xutongxin1.github.io/blob/master/picture/genymotion/G-1.jpg)
 
 下载完之后安装，一路Next，请不要选择中文路径安装，**也不要使用中文用户名安装，切记**
 
