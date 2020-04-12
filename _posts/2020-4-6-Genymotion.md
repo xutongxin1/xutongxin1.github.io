@@ -60,6 +60,8 @@ cd /opt/genymobile/genymotion(默认路径)
 ```
 就启动了
 
+第一次启动需要你登录，登录完了之后就可以用了（默认个人免费许可证）
+
 ## 2.创建第一台虚拟机
 （以win界面为例）
 
@@ -75,10 +77,10 @@ cd /opt/genymobile/genymotion(默认路径)
 
 Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网络类型](https://www.cnblogs.com/ct20150811/p/5143711.html)
 
-其余选项看我的视频讲解，最后点安装就可以了。日后所有选项（除了除了Android版本不能改）
+其余选项看我的视频讲解，最后点安装就可以了。日后所有选项（除了除了Android版本不能改）其它都可以改
 
 ## 3.开机并安装（理论上通常使用所）必须的东西
-右键创建好的虚拟机开机就好，其余右键选项见视频
+右键创建好的虚拟机开机就好，其余右边框栏选项见视频
 
 开机报错可能见后文
 
@@ -151,10 +153,15 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 但你必须购买裸金属服务器，普通服务器是虚拟cpu出来的，不能支持VT—X，裸金属服务器是直接给你一块cpu的可以满足条件，但一般价格不低
 
 ### 4.7我想把虚拟机分享给别人可以吗？
-可以，关闭genymotion，直接打开virtualbox
+可以，关闭Genymotion，直接打开virtualbox
 （对linux，直接终端输入virtualbox）
 
+![](https://xutongxin1.github.io/picture/genymotion/G11.1.PNG)
+![](https://xutongxin1.github.io/picture/genymotion/G11.2.PNG)
+
 选项选择export就可以导出了，导入也直接import。
+
+![](https://xutongxin1.github.io/picture/genymotion/G11.3.PNG)
 
 但是我测试了一下，似乎不能直接在Virtualbox启动虚拟机，还是要回到Genymotion
 
