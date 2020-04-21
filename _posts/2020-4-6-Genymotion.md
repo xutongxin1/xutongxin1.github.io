@@ -100,7 +100,10 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 ### 3.2安装ARM_Translation
 由于某些应用以arm架构打包而不是X86，因此需要往虚拟机安装此包来解决安装包的架构问题。
 
-下载地址 [https://github.com/m9rco/Genymotion_ARM_Translation/tree/master/package]()没9.0我也不知道
+下载地址
+
+[https://github.com/m9rco/Genymotion_ARM_Translation/tree/master/package](https://github.com/m9rco/Genymotion_ARM_Translation/tree/master/package])
+没9.0我也不知道
 
 直接把下载好的包**（不用解压）放在纯英文路径**，然后拖入虚拟机中就可以了
 
