@@ -8,7 +8,7 @@
 ## 书架上的分类
 
 <!-- slide vertical=true -->
-<!-- slide data-background="#ff0000" -->
+<!-- .slide: data-background="#ff0000" -->
 - Python
   - api的爬虫探索
   - 小工具
