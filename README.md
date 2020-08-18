@@ -1,14 +1,14 @@
 # xutongxin的笔记书房
 
 在这古朴的书房里，到底记录着什么呢~
-<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" -->
+<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" , data-background-opacity="0.5"-->
 <!-- slide -->
 
-<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" -->
+<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" , data-background-opacity="0.5"-->
 ## 书架上的分类
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" -->
+<!-- .slide: data-background-image="https://xutongxin1.github.io/asset/background/75006825_p0.jpg" , data-background-opacity="0.5"-->
 
 - Python
   - api的爬虫探索
