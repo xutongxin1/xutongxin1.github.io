@@ -4,25 +4,13 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   永远喜欢智乃<br/>
   还有一个隐藏属性···<br/>
   ASC<br/>
-  <a href="mailto:i@wu-kan.cn">
-    <i class="fas fa-envelope"></i>
-  </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/yecgaa1">
     <i class="fab fa-github"></i>
-  </a>
-  <a href="https://codeforces.com/profile/WuK">
-    <i class="fas fa-chart-bar"></i>
-  </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fas fa-smile"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fab fa-zhihu"></i>
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=1294654921&auto=1"
     width=100%
-    height=100
+    height=70
     frameborder="no"
     border="0"
     marginwidth="0"
