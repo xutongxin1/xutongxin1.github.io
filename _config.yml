@@ -559,7 +559,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - key: data-separator-vertical # 垂直展示页分隔符
         value: <!-- slide vertical=true -->
       - key: data-background-opacity
-        value: 0.5
+        value: "0.5"
     prepend: |
       <link
         rel="stylesheet"
