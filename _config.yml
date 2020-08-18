@@ -142,6 +142,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           gtag('js', new Date());
           gtag('config', 'UA-163543967-1');"
         ></script>
+
       - | # 网站字体，要换字体建议架梯子上<https://fonts.google.com/>挑选，再通过fonts.loli.net 加速引入
         <style>
           .sidebar,
@@ -559,6 +560,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         value: <!-- slide vertical=true -->
       - key: data-background-image
         value: "https://github.com/xutongxin1/xutongxin1.github.io/blob/master/asset/background/75006825_p0.jpg"
+      - key: data-background-size
+        value: "100px"
       - key: data-background-opacity
         value: "0.5"
     prepend: |
