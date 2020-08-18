@@ -559,7 +559,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - key: data-separator-vertical # 垂直展示页分隔符
         value: <!-- slide vertical=true -->
       - key: data-background-image
-        value: https://github.com/xutongxin1/xutongxin1.github.io/blob/master/asset/background/75006825_p0.jpg
+        value: "https://xutongxin1.github.io/asset/background/75006825_p0.jpg"
       - key: data-background-size
         value: 100px
       - key: data-background-opacity
