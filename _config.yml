@@ -2,7 +2,7 @@ title: xutongxin # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   电气工程及其自动化在读<br/>
   永远喜欢智乃<br/>
-  隐藏属性···<br/>
+  还有一个隐藏属性···<br/>
   ASC<br/>
   <a href="mailto:i@wu-kan.cn">
     <i class="fas fa-envelope"></i>
@@ -20,7 +20,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=1294654921&auto=1&height=32"
+    src="https://music.163.com/outchain/player?type=2&id=1294654921&auto=1&height=32"
     width=100%
     height=52
     frameborder="no"
@@ -244,8 +244,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
           href: /archive/
-        - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-          href: /merger/
       simple_jekyll_search: # 侧边栏的全站搜索
         enable: true
         full_text_search: false # 可能导致缓慢的搜索和加载
