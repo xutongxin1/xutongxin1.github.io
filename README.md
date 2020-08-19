@@ -1,4 +1,4 @@
-# xutongxin的笔记书房
+## xutongxin的笔记书房
 
 在这古朴的书房里，到底记录着什么呢~
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
