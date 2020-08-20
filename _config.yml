@@ -44,12 +44,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标，可换成你自己的图片，改href中的部分即可
         <link
           rel="apple-touch-icon-precomposed"
-          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+          href="https://gravatar.loli.net/avatar/c80c8eb8c9ca41e99f1eee4b2929292e?s=320"
         />
         <link
           rel="shortcut
           icon"
-          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+          href="https://gravatar.loli.net/avatar/c80c8eb8c9ca41e99f1eee4b2929292e?s=32"
         />
       - | # 来自lanyon的页面样式，不要改
         <link
