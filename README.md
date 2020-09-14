@@ -90,7 +90,7 @@
 - **MySQL**,Begin -> Learning
 
 <!-- slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/RshS1xwPKJcBHg5.jp" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
 
 ## 书架上的小贴纸
 
