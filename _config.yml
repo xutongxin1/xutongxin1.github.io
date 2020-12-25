@@ -478,7 +478,7 @@ defaults:
                   padding-top: 1rem;
                   padding-bottom: 1rem;
                   box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
-                  background-color: rgba(255, 255, 255, 0.95);
+                  background-color: rgba(255, 255, 255, 0.60);
                   animation-duration: 2s;
                   animation-name: fadeIn;
                 }
