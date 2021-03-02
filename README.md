@@ -8,34 +8,40 @@
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
 
-## 书架上的分类
+## 书架上的书籍
 
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
-- Python
-  - api的爬虫探索
-  - 小工具
+- 来看看我精选的书吧，全部书在
 
-- 其他的编程语言
-  - MC模组编写
+  [这里]: https://xutongxin1.github.io/tags/
 
-- 硬件研究
-  - Esp8266
+  哦
+
+  - [开发日志]: https://xutongxin1.github.io/tags/#5-%E6%97%A5%E5%BF%97
+
+    
+
+  - [hal环境安装笔记]: https://xutongxin1.github.io/_posts/2020-12-04-STM32+Clion+CubeMX%E7%8E%AF%E5%A2%83/
+
+    
+
+    
+
   
 
 <!-- slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/09/14/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
 
-## 书桌上的书籍
+## 书桌旁的照片
 
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/09/14/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
 
 - 广东工业大学 电气工程及其自动化专业本科生
-- 将要苦学电路设计
-- 正在学习java
-- 想要辅修计算机科学与技术
+- 想要成为嵌入式工程师
+- 想要转专业到自动化类并考研
 
 <!-- slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
@@ -55,7 +61,8 @@
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
 - 大学
-  - 想要参加创新比赛
+  - 自动化学院机器人比赛二等奖（第一次的比赛）
+  - 备赛状态
 
 
 
@@ -74,28 +81,38 @@
 
 - **C/C++**, Learning  -> Familiar
 - **Python**, Familiar
-- **Java**, Learning -> Familiar
 - **Markdown**, Familiar
 
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 - **Git**, Learning
+- **Clion**, Familiar
 - **Pycharm**, Familiar
-- **IDEA**,Familiar
-- **CAD**,Learning
+- **IDEA**, Familiar
+- **AD**, Learning -> Familiar
 
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
-- **Arduino**,Familiar
-- **Esp8266**,Familiar
-- **STM**,Learning
+- **STM32**, Learning -> Familiar
+- **Arduino**, Familiar
+- **Esp8266**, Familiar
+
+<!-- slide vertical=true -->
+<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+
+- STM32能力细化
+  - **HAL库**, Familiar
+  - **标准库**, Know but not use
+    - **CAN**, Learning 
 
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 - 这些工具上有着淡淡的尘埃，但是似乎加以擦拭也可以使用
+  - **Java**
+  - **TF**
   - **MySQL**
   - **CUDA**
 
