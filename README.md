@@ -13,17 +13,11 @@
 <!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
-- 来看看我精选的书吧，全部书在
+- 来看看我精选的书吧，全部书在[这里](https://xutongxin1.github.io/tags/#5-%E6%97%A5%E5%BF%97)哦
 
-  [这里]: https://xutongxin1.github.io/tags/
+  - [开发日志](https://xutongxin1.github.io/tags/#5-%E6%97%A5%E5%BF%97)
 
-  哦
-
-  - [开发日志]: https://xutongxin1.github.io/tags/#5-%E6%97%A5%E5%BF%97
-
-    
-
-  - [hal环境安装笔记]: https://xutongxin1.github.io/_posts/2020-12-04-STM32+Clion+CubeMX%E7%8E%AF%E5%A2%83/
+  - [hal环境安装笔记](https://xutongxin1.github.io/_posts/2020-12-04-STM32+Clion+CubeMX%E7%8E%AF%E5%A2%83/)
 
     
 
