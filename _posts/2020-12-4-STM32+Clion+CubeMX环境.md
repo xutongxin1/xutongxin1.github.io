@@ -29,7 +29,9 @@ https://gnutoolchains.com/arm-eabi/openocd/
 
 MingW:
 
-https://sourceforge.net/projects/mingw-w64/files/（环境变量D:\mingw64\bin）
+https://sourceforge.net/projects/mingw-w64/files/
+
+（环境变量D:\mingw64\bin）
 
 arm-none-eabi-gcc:（环境变量xxx/bin，测试arm-none-eabi-gcc -v)
 
