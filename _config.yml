@@ -527,8 +527,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <style>
                 .container.content {
                   padding: 2rem;
-                  box-shadow: 0 0 2rem rgba(255,255,255,0.5);
-                  background-color: rgba(255,255,255,0.5);
+                  box-shadow: 0 0 2rem rgba(255,255,255,0.7);
+                  background-color: rgba(255,255,255,0.7);
                   animation-duration: 2s;
                   animation-name: fadeIn;
                 }
