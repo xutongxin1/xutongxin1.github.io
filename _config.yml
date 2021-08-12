@@ -116,9 +116,6 @@ defaults:
                         }, {
                           "selector": ".page-title",
                           "text": "这是标题~"
-                        }, {
-                          "selector": ".v",
-                          "text": "评论没有审核，要对自己的发言负责哦~"
                         }]
                       },
                       "model": [
@@ -158,8 +155,9 @@ defaults:
                 h4,
                 h5,
                 h6 {
-                  font-family: PingFang SC, Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+                  font-family: "Courier New", "Courier", "PingFang TC", "WenQuanYi Micro Hei", "Microsoft YaHei Light", "Microsoft JhengHei", monospace;        
                 }
+                  
               </style>
             - | # 网页标题使用加粗字号
               <style>
@@ -393,10 +391,10 @@ defaults:
             append: |
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"
               />
               <script
-                src="https://cdn.jsdelivr.net/combine/npm/katex@0.11.1/dist/katex.min.js,npm/katex@0.11.1/dist/contrib/mathtex-script-type.min.js,npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+                src="https://cdn.jsdelivr.net/combine/npm/katex@0.13.13/dist/katex.min.js,npm/katex@0.11.1/dist/contrib/mathtex-script-type.min.js,npm/katex@0.11.1/dist/contrib/auto-render.min.js"
                 defer="defer"
                 onload='renderMathInElement(document.body, { delimiters: [{ left: "$", right: "$", display: false }] })'
               ></script>
@@ -410,7 +408,7 @@ defaults:
                 }
               </style>
               <script
-                src="https://cdn.jsdelivr.net/npm/mermaid@8.5.1/dist/mermaid.min.js"
+                src="https://cdn.jsdelivr.net/npm/mermaid@8.11.4/dist/mermaid.min.js"
                 defer="defer"
                 onload='
                   for(let x of document.getElementsByClassName("language-mermaid"))
@@ -422,16 +420,37 @@ defaults:
                       x.parentNode.insertAdjacentElement("beforebegin", m);
                     }'
               ></script>
+              <style>
+                pre.language-vega-lite,
+                code.language-vega-lite {
+                  display: none;
+                }
+              </style>
+              <script
+                src="https://cdn.jsdelivr.net/combine/npm/vega@5.20.2,npm/vega-lite@5.1.0,npm/vega-embed@6.18.2"
+                async="async"
+                onload='
+                  for(let x of document.getElementsByClassName("language-vega-lite"))
+                    if(x.nodeName=="CODE")
+                    {
+                      let m = document.createElement("div");
+                      x.parentNode.insertAdjacentElement("beforebegin", m);
+                      vegaEmbed(m, JSON.parse(x.textContent));
+                    }'
+              ></script>
+
           prism: # 代码高亮插件
             enable: true
             append: |
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/npm/prismjs@1.20.0/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.css,gh/PrismJS/prism-themes@1955cfef6953b3a59e66016e8a1e016b45d6cc79/themes/prism-nord.min.css"
+                href="https://cdn.jsdelivr.net/combine/npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.css,gh/PrismJS/prism-themes@1955cfef6953b3a59e66016e8a1e016b45d6cc79/themes/prism-nord.min.css"
               />
               <script
-                src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.20.0/components/prism-core.min.js,npm/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js,npm/prismjs@1.20.0/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.js"
-                defer="defer"
+                src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.24.1/components/prism-core.min.js,npm/prismjs@1.24.1/plugins/autoloader/prism-autoloader.min.js,npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs@1.24.1/plugins/toolbar/prism-toolbar.min.js,npm/prismjs@1.24.1/plugins/match-braces/prism-match-braces.min.js"
+                async="async"
+                data-autoloader-path="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/"
+
                 onload='
                   Prism.plugins.autoloader.languages_path = "https:\/\/cdn.jsdelivr.net/npm/prismjs/components/";
                   for(let x of document.getElementsByTagName("pre"))
@@ -565,7 +584,7 @@ defaults:
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.0/dist/reveal.min.css,npm/reveal.js@4.0.0/dist/theme/serif.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.css,npm/reveal.js@4.0.0/dist/theme/serif.min.css"
             />
             <style>
               .sidebar {
@@ -580,7 +599,7 @@ defaults:
             </style>
             <script
               defer="defer"
-              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.0/dist/reveal.min.js,npm/reveal.js@4.0.0/plugin/markdown/markdown.js"
+              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.js,npm/reveal.js@4.0.0/plugin/markdown/markdown.js"
               onload="
               document.getElementsByClassName('wrap')[0].classList.add('reveal');
               Reveal.initialize({
