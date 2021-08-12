@@ -9,8 +9,8 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=1294654921&auto=0&height=32"
-    width=100%
-    height=70
+    width="100%"
+    height="52"
     frameborder="no"
     border="0"
     marginwidth="0"
@@ -19,21 +19,21 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
 url: https://xutongxin1.github.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
-defaults:
+defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
   - scope:
       path: "" # an empty string here means all files in the project
     values: # 以下配置项也可以在任意页面自定义
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           body:
-            theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+            theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #一些页面优化标签，看不懂可跳过
               <meta
                 name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1"
+                content="width=device-width,minimum-scale=1,initial-scale=1"
               />
               <meta
                 http-equiv="content-type"
@@ -58,75 +58,82 @@ defaults:
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css"
+                href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
               />
-            - | # 引入fontawesome图标样式
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"
-              />
+            - | # 用js引入fontawesome图标样式，功能更丰富
+              <script
+                async="async"
+                src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/js/all.min.js"
+              ></script>
             - | # 引入live2d看板娘！不需要可以把这一项都删掉
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
               />
+              <style>
+                @media only print {
+                  .pio-container {
+                    display: none;
+                  }
+                }
+              </style>
               <script
                 async="async"
                 src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
                 onload='
-                    let pio_container = document.createElement("div");
-                    pio_container.classList.add("pio-container");
-                    pio_container.classList.add("right");
-                    pio_container.style.bottom = "-2rem";
-                    pio_container.style.zIndex = "1";
-                    document.body.insertAdjacentElement("beforeend", pio_container);
-                    let pio_action = document.createElement("div");
-                    pio_action.classList.add("pio-action");
-                    pio_container.insertAdjacentElement("beforeend", pio_action);
-                    let pio_canvas = document.createElement("canvas");
-                    pio_canvas.id = "pio";
-                    pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "600";
-                    pio_canvas.height = "800";
-                    pio_container.insertAdjacentElement("beforeend", pio_canvas);
-                    let pio = new Paul_Pio({
-                      "mode": "fixed",
+                  let pio_container = document.createElement("div");
+                  pio_container.classList.add("pio-container");
+                  pio_container.classList.add("right");
+                  pio_container.style.bottom = "-2rem";
+                  pio_container.style.zIndex = "1";
+                  document.body.insertAdjacentElement("beforeend", pio_container);
+                  let pio_action = document.createElement("div");
+                  pio_action.classList.add("pio-action");
+                  pio_container.insertAdjacentElement("beforeend", pio_action);
+                  let pio_canvas = document.createElement("canvas");
+                  pio_canvas.id = "pio";
+                  pio_canvas.style.width = "14rem";
+                  pio_canvas.width = "600";
+                  pio_canvas.height = "800";
+                  pio_container.insertAdjacentElement("beforeend", pio_canvas);
+                  let pio = new Paul_Pio({
+                    "mode": "fixed",
+                    "hidden": true,
+                    "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
+                    "content": {
+                      "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
+                      "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
                       "hidden": true,
-                      "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
-                      "content": {
-                        "link": ["https://jekyll-theme-WuK.wu-kan.cn"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
-                        "hidden": true,
-                        "custom": [{
-                          "selector": "a",
-                          "type": "link",
-                        }, {
-                          "selector": ".sidebar-toggle",
-                          "text": "打开侧边栏叭~"
-                        }, {
-                          "selector": ".effect-info",
-                          "text": "哇，你发现了什么！"
-                        }, {
-                          "selector": "#sidebar-search-input",
-                          "text": "想搜索什么呢？很多干货哦！"
-                        }, {
-                          "selector": "#toc",
-                          "text": "这是目录~"
-                        }, {
-                          "selector": ".page-title",
-                          "text": "这是标题~"
-                        }]
-                      },
-                      "model": [
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
-                    });'
+                      "custom": [{
+                        "selector": "a",
+                        "type": "link",
+                      }, {
+                        "selector": ".sidebar-toggle",
+                        "text": "打开侧边栏叭~"
+                      }, {
+                        "selector": ".effect-info",
+                        "text": "哇，你发现了什么！"
+                      }, {
+                        "selector": "#sidebar-search-input",
+                        "text": "想搜索什么呢？很多干货哦！"
+                      }, {
+                        "selector": "#toc",
+                        "text": "这是目录~"
+                      }, {
+                        "selector": ".page-title",
+                        "text": "这是标题~"
+                      }]
+                    },
+                    "model": [
+                      "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
+                      "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
+                  });'
               ></script>
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
               <script
@@ -158,15 +165,25 @@ defaults:
                 }
                   
               </style>
-            - | # 网页标题使用加粗字号
+            - | # 表格样式美化
               <style>
-                h1,
-                h2,
-                h3,
-                h4,
-                h5,
-                h6 {
-                  font-weight: bold;
+                td,
+                th {
+                  padding: 0px;
+                  border: 0px;
+                }
+                table {
+                  border: 0px;
+                }
+                table tbody {
+                  display: block;
+                  overflow: scroll;
+                }
+                table thead,
+                tbody tr {
+                  display: table;
+                  table-layout: fixed;
+                  width: 100%;
                 }
               </style>
             - | #修复行内图片默认样式
@@ -220,7 +237,7 @@ defaults:
                   }
                   #sidebar-search-results-container {
                     overflow: auto auto;
-                    max-height: 50vh;
+                    max-height: 66.6vh;
                   }
                 </style>
                 <input
@@ -231,7 +248,7 @@ defaults:
                   id="sidebar-search-results-container"
                 ></ol>
                 <script
-                  src='https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.7/dest/simple-jekyll-search.min.js'
+                  src='https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.9.1'
                   async='async'
                   onload='
                     SimpleJekyllSearch({
@@ -245,11 +262,11 @@ defaults:
                 ></script>
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
               enable: true
-              prepend: | # 目录长度超过半屏时自动折叠
+              prepend: | # 目录过长时自动折叠
                 <style>
                   #toc {
                     overflow: auto auto;
-                    max-height: 50vh;
+                    max-height: 66.6vh;
                   }
                 </style>
             append_to_sidebar:
@@ -271,7 +288,6 @@ defaults:
                   }
                   .effect-info {
                     text-align: center;
-                    backface-visibility: hidden;
                     position: absolute;
                     top: 0;
                     transform-style: preserve-3d;
@@ -375,7 +391,7 @@ defaults:
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2019-2020 Xutongxin
+                  2019-2021 Xutongxin
                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
@@ -383,19 +399,25 @@ defaults:
               kilo: 千
               unit: 字
         page:
-          masthead: # 显示顶栏
+          title: # 为每个页面自动生成一个 H1 title
             enable: true
           katex: # katex 数学公式插件
             enable: true
-            append: |
+            append:
+              | # 对KaTeX过长公式渲染超出页面的修正，感谢[@AmachiInori](https://github.com/wu-kan/wu-kan.github.io/issues/13)
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"
               />
+              <style>
+                .katex-display>.katex {
+                  white-space: normal;
+                }
+              </style>
               <script
-                src="https://cdn.jsdelivr.net/combine/npm/katex@0.13.13/dist/katex.min.js,npm/katex@0.11.1/dist/contrib/mathtex-script-type.min.js,npm/katex@0.11.1/dist/contrib/auto-render.min.js"
-                defer="defer"
-                onload='renderMathInElement(document.body, { delimiters: [{ left: "$", right: "$", display: false }] })'
+                src="https://cdn.jsdelivr.net/combine/npm/katex@0.13.13/dist/katex.min.js,npm/katex@0.13.13/dist/contrib/auto-render.min.js"
+                async="async"
+                onload='renderMathInElement(document.body, { delimiters: [{left: "$$", right: "$$", display: true}, { left: "$", right: "$", display: false }, {left: "\\(", right: "\\)", display: false}, {left: "\\[", right: "\\]", display: true}]})'
               ></script>
           mermaid: # mermaid图插件
             enable: true
@@ -405,10 +427,17 @@ defaults:
                 code.language-mermaid {
                   display: none;
                 }
+                @media only screen {
+                  .mermaid {
+                    overflow: auto auto;
+                    max-width: 100%;
+                    max-height: 66.6vh;
+                  }
+                }
               </style>
               <script
                 src="https://cdn.jsdelivr.net/npm/mermaid@8.11.4/dist/mermaid.min.js"
-                defer="defer"
+                async="async"
                 onload='
                   for(let x of document.getElementsByClassName("language-mermaid"))
                     if(x.nodeName=="CODE")
@@ -443,7 +472,7 @@ defaults:
             append: |
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs@1.20.0/plugins/toolbar/prism-toolbar.min.css,gh/PrismJS/prism-themes@1955cfef6953b3a59e66016e8a1e016b45d6cc79/themes/prism-nord.min.css"
+                href="https://cdn.jsdelivr.net/combine/npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.css,npm/prismjs@1.24.1/plugins/toolbar/prism-toolbar.min.css,npm/prismjs@1.24.1/plugins/match-braces/prism-match-braces.min.css,npm/prism-themes@1.8.0/themes/prism-nord.min.css"
               />
               <script
                 src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.24.1/components/prism-core.min.js,npm/prismjs@1.24.1/plugins/autoloader/prism-autoloader.min.js,npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs@1.24.1/plugins/toolbar/prism-toolbar.min.js,npm/prismjs@1.24.1/plugins/match-braces/prism-match-braces.min.js"
@@ -451,9 +480,8 @@ defaults:
                 data-autoloader-path="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/"
 
                 onload='
-                  Prism.plugins.autoloader.languages_path = "https:\/\/cdn.jsdelivr.net/npm/prismjs/components/";
-                  for(let x of document.getElementsByTagName("pre"))
-                    x.classList.add("line-numbers");
+                  for(let x of document.getElementsByClassName("content"))
+                    x.classList.add("line-numbers","match-braces");
                   Prism.plugins.toolbar.registerButton("select-code", function (env) {
                     let button = document.createElement("button");
                     button.textContent = "select this " + env.language;
@@ -474,29 +502,33 @@ defaults:
                   })'
               ></script>
           prepend:
-            - | # 代码块超过半屏的时候自动折叠
+            - | # 代码块过长自动折叠
               <style>
-                pre {
-                  max-height: 50vh;
-                  overflow: auto;
+                @media only screen {
+                  pre {
+                    max-height: 66.6vh;
+                    overflow: auto;
+                  }
                 }
               </style>
             - | # 增加宽屏下的显示内容
               <style>
-                @media (min-width: 56em) {
+                .container {
+                  min-width: 66.6%;
+                  min-height: 100vh;
+                }
+                @media only print {
                   .container {
-                    max-width: 66.6%;
+                    min-width: 100%;
                   }
                 }
               </style>
-            - | # 给文章加上白色背景，防止被背景影响阅读；同时加上加载动画
+            - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
               <style>
-                .masthead,
                 .container.content {
-                  padding-top: 1rem;
-                  padding-bottom: 1rem;
-                  box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
-                  background-color: rgba(255, 255, 255, 0.60);
+                  padding: 2rem;
+                  box-shadow: 0 0 2rem rgba(255,255,255,0.9);
+                  background-color: rgba(255,255,255,0.9);
                   animation-duration: 2s;
                   animation-name: fadeIn;
                 }
@@ -546,7 +578,7 @@ defaults:
           append_to_section_tag:
             - key: data-markdown
             - key: data-separator # 水平展示页分隔符
-              value: <!-- slide -->
+              value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- slide vertical=true -->
             - key: data-background-opacity
@@ -554,7 +586,7 @@ defaults:
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.css,npm/reveal.js@4.0.0/dist/theme/serif.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.css,npm/reveal.js@4.1.3/dist/theme/serif.min.css"
             />
             <style>
               .sidebar {
@@ -567,48 +599,30 @@ defaults:
                 color: #268BD2;
               }
             </style>
+          append: |
             <script
-              defer="defer"
-              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.js,npm/reveal.js@4.0.0/plugin/markdown/markdown.js"
+              async="async"
+              src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.1.3/dist/reveal.min.js,npm/reveal.js@4.1.3/plugin/markdown/markdown.min.js,npm/reveal.js@4.1.3/plugin/math/math.min.js,npm/reveal.js@4.1.3/plugin/highlight/highlight.min.js"
               onload="
-              document.getElementsByClassName('wrap')[0].classList.add('reveal');
+              for(let x of document.getElementsByClassName('wrap'))
+                x.classList.add('reveal');
               Reveal.initialize({
                 height: '100%',
-                hash: true,
                 mouseWheel: true,
                 navigationMode: 'linear',
-                plugins: [ RevealMarkdown ]
+                plugins: [ RevealMarkdown,RevealMath,RevealHighlight ]
               });
             "></script>
-        document:
-          append_to_head:
-            - |
-              <meta
-                content="width=device-width, initial-scale=1"
-                name="viewport"
-              />
-            - |
-              <link
-                href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css"
-                rel="stylesheet"
-              />
-            - | # 仿 github 页面样式；打印时字体换成宋体更美观
-              <style>
-                .markdown-body {
-                  box-sizing: border-box;
-                  min-width: 200px;
-                  max-width: 980px;
-                  margin: 0 auto;
-                  padding: 45px;
-                }
-                @media (max-width: 767px) {
-                  .markdown-body { padding: 15px; }
-                }
-                @media print {
-                  h1 { page-break-before: always; }
-                  .markdown-body { font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; }
-                }
-              </style>
+
+compress_html: # <https://github.com/penibelst/jekyll-compress-html>
+  clippings: all
+  comments: [] # 注释不能压缩，否则 reveal.js 的 ppt切屏受影响
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
@@ -625,9 +639,13 @@ remote_theme: https://github.com/xutongxin1/jekyll-theme-WuK #使用固定版本
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
+webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
+  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
+  baidu: szbTSfUGAB
+
 permalink: pretty
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
-# future: false # 不发布时间在未来的文章
+future: true # 允许发布时间在未来的文章
 
 # limit_posts: 999 # 限制博文数量
 # encoding: utf-8
@@ -636,8 +654,11 @@ markdown: kramdown
 kramdown: # 见<https://kramdown.gettalong.org/options.html>
   input: GFM # 见<http://jekyllcn.com/docs/configuration/#kramdown>
   syntax_highlighter_opts: # 可见<https://kramdown.gettalong.org/syntax_highlighter/rouge.html>
-    disable: true # 关掉默认的高亮，换用prismjs
-
+    block:
+      disable: true # 关掉代码块默认的高亮，换用prismjs
+      line_numbers: false #渲染出来的效果好鬼畜
+    span:
+      disable: true
 # 以下为 githubpage上不可修改的参数，见<https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll>
 #lsi: false # 为相关文章生成索引
 #safe: true # 禁用自定义插件
