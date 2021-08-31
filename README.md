@@ -10,7 +10,7 @@
 
 
 
-<!-- slide -->
+<!-- .slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
 
@@ -32,7 +32,7 @@
 
 
 
-<!-- slide -->
+<!-- .slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/09/14/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
 
 
@@ -51,7 +51,7 @@
 
 
 
-<!-- slide -->
+<!-- .slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
 
@@ -81,7 +81,7 @@
 
 
 
-<!-- slide -->
+<!-- .slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 
@@ -164,7 +164,7 @@
 
 
 
-<!-- slide -->
+<!-- .slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/09/14/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
 
 ## 书架上的小贴纸
