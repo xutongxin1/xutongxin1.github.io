@@ -132,7 +132,7 @@
 
 
 
-- **STM32**, Learning -> Familiar
+- **STM32**, Familiar
 - **Arduino**, Familiar
 - **Esp8266**, Familiar
 - **ACFly Flying System With Ti**, Familiar
@@ -157,7 +157,7 @@
 
 - 这些工具上有着淡淡的尘埃，但是似乎加以擦拭也可以使用
   - **Java**
-  - **TF**
+  - **Tensorflow with Python**
   - **MySQL**
   - **CAN Bus**
   - **CUDA**
