@@ -25,7 +25,7 @@ tag: 软件 教程 Genymotion
 ### 1.1：Win
 如果你不知道什么是Virtualbox，直接点包含就好
 
-![win](https://xutongxin1.github.io/picture/genymotion/G-1.PNG)
+![win](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-1.PNG)
 
 下载完之后安装，一路Next，请不要选择中文路径安装，**也不要使用中文用户名安装，切记**
 
@@ -40,7 +40,7 @@ sudo apt install virtualbox
 
 下载好Genymotion，比如
 
-![linux](https://xutongxin1.github.io/picture/genymotion/G-1.1.PNG)
+![linux](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-1.1.PNG)
 ```
 wget https://dl.genymotion.com/releases/genymotion-3.0.4/genymotion-3.0.4-linux_x64.bin
 ```
@@ -51,7 +51,7 @@ sudo bash genymotion-3.0.4-linux_x64.bin
 ```
 中间按一次会询问一次你的安装路径，我选择默认按Y
 
-![ ](https://xutongxin1.github.io/picture/genymotion/G-2.PNG)
+![ ](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-2.PNG)
 
 启动的话
 ```
@@ -67,11 +67,11 @@ cd /opt/genymobile/genymotion(默认路径)
 
 界面为全英文界面
 
-![1](https://xutongxin1.github.io/picture/genymotion/G-3.PNG)
+![1](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-3.PNG)
 
 在下面选择一台设备类型便可以安装了
 
-![1](https://xutongxin1.github.io/picture/genymotion/G-4.PNG)
+![1](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-4.PNG)
 
 最需要改的是Processor(s)核心数量（理论可以超线程分配但不建议），Memory size内存大小（这个就别超了，蓝屏等着你），如果你还想同时开别的东西就别分满
 
@@ -86,11 +86,11 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 
 右边栏包括了：虚拟传感器和手机状态
 
-![ ](https://xutongxin1.github.io/picture/genymotion/G-6.1.PNG)
+![ ](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-6.1.PNG)
 
 虚拟的物理按键（总之按照一台手机用就好）
 
-![ ](https://xutongxin1.github.io/picture/genymotion/G-6.2.PNG)
+![ ](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-6.2.PNG)
 
 ### 3.1安装apk
 直接把apk拖入虚拟机框框内就会自动安装。
@@ -112,7 +112,7 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 
 直接单击右上角按钮即可安装
 
-![](https://xutongxin1.github.io/picture/genymotion/G-7.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-7.PNG)
 
 ## 4进阶内容问答
 ### 4.0开机失败
@@ -130,19 +130,19 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 
 1.以某个软件为例，如图
 
-![](https://xutongxin1.github.io/picture/genymotion/G-8.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-8.PNG)
 
-![](https://xutongxin1.github.io/picture/genymotion/G-9.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-9.PNG)
 
 2.设置wifi使用外部代理
 
 长按wifi或找到齿轮，找到高级设置
 
-![](https://xutongxin1.github.io/picture/genymotion/G-10.1.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-10.1.PNG)
 
 设置代理
 
-![](https://xutongxin1.github.io/picture/genymotion/G-10.2.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G-10.2.PNG)
 
 这个方案没有证实，但是里面的Webview可以上Google了
 
@@ -159,12 +159,12 @@ Network mode默认就好，有需要改的建议自己了解一下 [虚拟机网
 可以，关闭Genymotion，直接打开virtualbox
 （对linux，直接终端输入virtualbox）
 
-![](https://xutongxin1.github.io/picture/genymotion/G11.1.PNG)
-![](https://xutongxin1.github.io/picture/genymotion/G11.2.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G11.1.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G11.2.PNG)
 
 选项选择export就可以导出了，导入也直接import。
 
-![](https://xutongxin1.github.io/picture/genymotion/G11.3.PNG)
+![](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0//genymotion/G11.3.PNG)
 
 但是我测试了一下，似乎不能直接在Virtualbox启动虚拟机，还是要回到Genymotion
 
