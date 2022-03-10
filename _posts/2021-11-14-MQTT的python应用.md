@@ -1,3 +1,15 @@
+---
+layout: post
+title: MQTT的python应用
+categories: 日志
+tags: 
+    - 日志
+    - 大二
+BGImage: 'https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20220310123346.png'
+jekyll-theme-WuK:
+    musicid: '34367899'
+---
+
 这一天
 
 很复杂
