@@ -4,7 +4,7 @@ layout: post
 title: stm32+Clion+CubeMX安装教程
 categories: 日志
 tags: 
-    - stm32
+    - 教程
     - 笔记
 BGImage: 'https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20201130215808.png'
 jekyll-theme-WuK:

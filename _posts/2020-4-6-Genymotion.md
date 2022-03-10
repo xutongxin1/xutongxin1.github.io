@@ -2,7 +2,9 @@
 layout: post
 title: Genymotion安装与使用
 categories: 软件教程
-tag: 软件 教程 Genymotion
+tags: 
+    - 软件 
+    - 教程
 ---
 
 
