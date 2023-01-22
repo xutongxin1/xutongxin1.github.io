@@ -169,5 +169,5 @@ Files
 
 复制于qtcreator
 
-![image-20220308213947672](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220308213947672.png)
+![image-20220308213947672](https://raw.githubusercontents.com/xutongxin1/PictureBed/master/img0/image-20220308213947672.png)
 
