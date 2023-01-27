@@ -71,7 +71,7 @@
   - 大二上
     - 电赛省赛失利
     - 数模省赛队友忘记提交了。。
-    - （分割线）开始重振旗鼓
+    - （这是一条分割线）开始重振旗鼓
     - ASM设计大赛三等奖
     - 邦普杯电子设计大赛三等奖 
     - 校级大学生创新创业竞赛特等奖
@@ -120,7 +120,7 @@
 
 - **Electronics**, Familiar
   - **Digital Circuits**, Familiar
-  - **Analog Circuits **, Familiar
+  - **Analog Circuits**, Familiar
   - **Power Electronics**, Learning->Familiar
   - **Automatic control principle**, Learning->Familiar
 
@@ -135,7 +135,7 @@
 - **C/C++**,  Familiar
 - **MATLAB**, Learning
 - **Python**, Familiar
-- **QT(C++)  and PYQT **, Familiar
+- **QT(C++)  and PYQT**, Familiar
 - **Markdown**, Familiar
 - **Linux core**, Learning->Familiar
   - **Ubuntu**, Familiar

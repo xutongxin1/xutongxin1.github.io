@@ -85,7 +85,7 @@ target_include_directories(Test PRIVATE "${CMAKE_BINARY_DIR}/Test_autogen/includ
 
 学官网加环境变量是最好的
 
-
+https://www.jetbrains.com/help/clion/qt-tutorial.html#troubleshooting
 
 解决方案是
 
