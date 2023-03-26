@@ -5,7 +5,7 @@ categories: 日志
 tags: 
     - 教程
     - 大二
-BGImage: 'https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20220310123346.png'
+BGImage: 'https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20220310123346.png'
 jekyll-theme-WuK:
     musicid: '34367899'
 ---
@@ -81,7 +81,7 @@ target_include_directories(Test PRIVATE "${CMAKE_BINARY_DIR}/Test_autogen/includ
 
 编译成功后无法运行缺依赖
 
-![image-20210716193316105](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20210716193316105.png)
+![image-20210716193316105](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20210716193316105.png)
 
 学官网加环境变量是最好的
 
@@ -121,7 +121,7 @@ CMakeFiles\QTPlayer.dir/objects.a(mainwindow.cpp.obj): In function `MainWindow::
 E:/GitProject/QTPlayer/mainwindow.cpp:36: undefined reference to `__imp__ZN10QWebSocketD1Ev'
 ```
 
-![image-20210814211514401](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20210814211514401.png)
+![image-20210814211514401](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20210814211514401.png)
 
 三类问题，第一是在头文件声明的函数没写定义(网上说的)
 

@@ -1,8 +1,16 @@
+<!--
+ * @Author: xtx
+ * @Date: 2022-08-05 18:38:34
+ * @LastEditors: xtx
+ * @LastEditTime: 2023-03-26 17:21:38
+ * @FilePath: \xutongxin1.github.io\系统编程\vim.md
+ * @Description: 请填写简介
+-->
 ## vim
 
 - 进入插入模式
 
-  - ![image-20220728011812138](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220728011812138.png)
+  - ![image-20220728011812138](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220728011812138.png)
   - 补充：
     - s—— 删除一个字符后插入
     - S——删除一行后插入

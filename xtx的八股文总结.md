@@ -54,7 +54,7 @@ https://zhuanlan.zhihu.com/p/85597791
 
 #### 中断的响应的整个过程
 
-![在这里插入图片描述](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20210607194058569.png)
+![在这里插入图片描述](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20210607194058569.png)
 
 
 
@@ -74,25 +74,25 @@ https://zhuanlan.zhihu.com/p/169587595（讲推挽和开漏可以）
 
 二、输出状态：推挽输出，开漏输出，复用推挽输出，复用开漏输出
 
-![image-20220616120340449](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616120340449.png)
+![image-20220616120340449](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616120340449.png)
 
-![image-20220616120647163](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616120647163.png)
+![image-20220616120647163](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616120647163.png)
 
 一般来说，开漏是用来连接不同电平的器件，匹配电平用的，因为开漏引脚不连接外部的上拉电阻时，只能输出低电平，如果需要同时具备输出高电平的功能，则需要接上拉电阻，很好的一个优点是通过改变上拉电源的电压，便可以改变传输电平。比如加上上拉电阻就可以提供TTL/CMOS电平输出等。（上拉电阻的阻值决定了逻辑电平转换的沿的速度。阻值越大，速度越低功耗越小，所以负载电阻的选择要兼顾功耗和速度。）
 
 #### 通讯协议 iic特征 iic时序图 
 
-![image-20220616131419029](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616131419029.png)
+![image-20220616131419029](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616131419029.png)
 
 #### 单工 半双工 全双工是什么 
 
 https://www.eet-china.com/mp/a69082.html
 
-![image-20220616121028418](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616121028418.png)
+![image-20220616121028418](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616121028418.png)
 
 #### 串口通讯传输过程 spi最少几根线 SPI通信时序
 
-![image-20220616121112212](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616121112212.png)
+![image-20220616121112212](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220616121112212.png)
 
 MOSI MISO CLK（别忘了时钟线）
 
@@ -124,7 +124,7 @@ https://blog.csdn.net/Liuqz2009/article/details/107280075
 
 https://www.cnblogs.com/qg-whz/p/5140930.html
 
-![image-20220705014022188](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705014022188.png)
+![image-20220705014022188](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705014022188.png)
 
 
 
@@ -141,7 +141,7 @@ Linux启动流程：
 
 https://www.runoob.com/linux/linux-system-boot.html
 
-![image-20220705013906591](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705013906591.png)
+![image-20220705013906591](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705013906591.png)
 
 ### 进程创建的几种方式
 

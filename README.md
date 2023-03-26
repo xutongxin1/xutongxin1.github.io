@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -11,15 +11,15 @@
 
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
 
 ## 书架上的书籍
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
-- 来看看我的书架上的书吧，在[这里](https://xutongxin1.github.io/tags)哦
+- 来看看我的书架上的书吧，在[这里](https://blog.xutongxin.me/tags)哦
 
   - **你知道吗？**
     - 这是我的博客哦，虽然有我的自我介绍，但是博客才是它真正的用处呢
@@ -33,7 +33,7 @@
 
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -42,7 +42,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/NBHwtcFdXCjPkgf.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -53,7 +53,7 @@
 
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -62,7 +62,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
 - 大学
   - 大一
@@ -80,7 +80,7 @@
   
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
   - 大学
     - 大二下
@@ -96,7 +96,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/1BKCyMV3tSqOhvg.jpg" , data-background-opacity="0.5"-->
 
 - 高中（包括间接）
 
@@ -109,14 +109,14 @@
 
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 
 
 ## 书桌抽屉里的工具
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 - **Electronics**, Familiar
   - **Digital Circuits**, Familiar
@@ -128,7 +128,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -143,7 +143,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -161,7 +161,7 @@
 
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 
 
@@ -181,7 +181,7 @@
   
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 - 其他泛化能力
 	- Server Configuration
@@ -193,7 +193,7 @@
 	- Last but not Least: Maintain this blog
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/08/18/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/Z2OUmsbBciDp9r5.jpg" , data-background-opacity="0.5"-->
 
 - 这些工具上有着淡淡的尘埃，但是似乎加以擦拭也可以使用
   - **Java**
@@ -206,12 +206,12 @@
 
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
 
 ## 书架上的小贴纸
 
 <!-- slide vertical=true -->
-<!-- .slide: data-background-image="https://i.loli.net/2020/09/14/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/xutongxin1.github.io/blog_picture/RshS1xwPKJcBHg5.jpg" , data-background-opacity="0.5"-->
 
 - **[Github](https://github.com/Yecgaa1)** 
 - [QQ](http://wpa.qq.com/msgrd?v=3&uin=2656823393&site=qq&menu=yes)

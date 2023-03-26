@@ -47,7 +47,7 @@
 - 留出烧录接口
 
   - IO0需要留出用于烧录，注意需要默认拉高
-    - ![image-20220813153505456](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220813153505456.png)
+    - ![image-20220813153505456](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220813153505456.png)
     - 留出RXTX来烧录
 
 - 一代留出调试jtag接口（要查手册是哪三个口）

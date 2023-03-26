@@ -91,7 +91,7 @@
     - -amin,-mmin,-cmin
     - 意义为距离上次 n天，如-atime n
 - *匹配0-n个，？匹配一个
-- ![image-20220726210258282](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726210258282.png)
+- ![image-20220726210258282](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726210258282.png)
   - -exec 执行
   - ls -l（执行啥）
   - { } 代表吧前面执行的结果（find的结果）填入此处（中间可以不用空格）
@@ -111,13 +111,13 @@
     - 搜索root的进程
     - 记得并不需要参数
 - |与xargs
-  - ![image-20220726210258282](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726210258282.png)
+  - ![image-20220726210258282](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726210258282.png)
     - find ./ -type f | ls -l
       - **此时上面这条命令，与单独执行ls -l没有区别，传参失败**
   - -exec的替代方案 1：xargs（配合|使用）
     - find ./ -type f | xargs ls -l
       - 使用xargs有效传参
-      - 区别：<img src="https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726212356908.png" alt="image-20220726212356908" style="zoom: 25%;" />
+      - 区别：<img src="https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726212356908.png" alt="image-20220726212356908" style="zoom: 25%;" />
         - xargs是等待前命令执行一句就执行一次，-exec是等待全部执行结束
         - 理论上结果搜索量大时，xrags可以分片映射，效率更高
       - 若文件名存在空格，xrags执行会失败
@@ -136,7 +136,7 @@
     - -i 安装
     - -r可以卸载（但是为啥不用remove呢（
 - 源码安装的逻辑
-  - ![image-20220726214807264](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726214807264.png)
+  - ![image-20220726214807264](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220726214807264.png)
 
 ### 压缩
 
@@ -174,14 +174,14 @@
 - env 显示所有环境变量
 - top 带变化的任务管理器
 - man看手册
-  - ![image-20220727005141720](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220727005141720.png)
+  - ![image-20220727005141720](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220727005141720.png)
     - 如：man 3 printf 查printf库调用方式
     - 如：man 5 passwd 查询配置文件里每一个参数的含义
 - clear 清屏
   - **Ctrl+L其实更好**
 - alias 别名系统
   - 如给ps aux指令给个别名：
-  - ![image-20220727005613595](https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220727005613595.png)
+  - ![image-20220727005613595](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220727005613595.png)
 - echo回显
 - umask 指定用户创建的文件的掩码（权限码）
   - 这里有点复杂，实际新建文件的权限是777-umask，若此时减去111有意义或部分有意义，则减去111或部分减1（系统认为程序创建后无可执行权限）

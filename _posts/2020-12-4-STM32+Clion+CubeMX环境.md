@@ -6,7 +6,7 @@ categories: 日志
 tags: 
     - 教程
     - 笔记
-BGImage: 'https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20201130215808.png'
+BGImage: 'https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/20201130215808.png'
 jekyll-theme-WuK:
         background_music: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=1444719011&auto=1&height=66"></iframe>'
       
