@@ -141,7 +141,7 @@ Linux启动流程：
 
 https://www.runoob.com/linux/linux-system-boot.html
 
-![image-20220705013906591](https://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705013906591.png)
+![image-20220705013906591](http://github.xutongxin.me/https://raw.githubusercontent.com/xutongxin1/PictureBed/master/img0/image-20220705013906591.png)
 
 ### 进程创建的几种方式
 

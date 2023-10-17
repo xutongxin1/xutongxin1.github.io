@@ -67,7 +67,13 @@ QTCreator不自带cmake，下一个装就好
 set(CMAKE_PREFIX_PATH "E:/Qt/Qt5.12.11/5.12.11/mingw73_64/lib/cmake/Qt5")
 ```
 
-找到Qt5Config.cmake路径，添加上面这句
+找到Qt5Config.cmake路径，添加上面这句。如果不想在CMake内写这段话，可以在Clion内的工具链进行设置
+
+```
+-DCMAKE_PREFIX_PATH="C:\Qt\6.2.4\msvc2019_64\lib\cmake\"
+```
+
+![image-20230619164002860](C:/Users/xtx/AppData/Roaming/Typora/typora-user-images/image-20230619164002860.png)
 
 ### ui的头文件找不到
 
@@ -101,10 +107,6 @@ windeployqt.exe xxxx.exe
 然后再运行
 
 上述步骤只需要进行一次，除非你引用了新的库
-
-
-
-
 
 ### 编译到链接库阶段报错moc_mainwindow.cpp:99: undefined reference to ‘__imp__
 
