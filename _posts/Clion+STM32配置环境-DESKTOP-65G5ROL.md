@@ -219,7 +219,7 @@ main.c内
 
 编译后提示重复函数名，需要自己屏蔽syscall的同名函数
 
-对于浮点数打印，似乎还有加一句cmake语句
+对于浮点数打印，还有加一句cmake语句
 
 ```
 set(COMMON_FLAGS "-specs=nosys.specs -specs=nano.specs -u _printf_float ")

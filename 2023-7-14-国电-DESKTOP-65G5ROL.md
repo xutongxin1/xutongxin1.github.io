@@ -43,7 +43,13 @@ end
 
 ## 初始化注意事项
 
+
+
 ### 添加cmake
+
+```cmake
+set(COMMON_FLAGS "-specs=nosys.specs -specs=nano.specs -u _printf_float ")
+```
 
 ```cmake
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a)
@@ -51,9 +57,33 @@ target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/Middlewares/ST/ARM
 
 定时器的Interal Clock对应HCLK的时钟源
 
-### 
+#### DDS其中一个库的初始化有问题
+
+带扫频的库需要手动初始化所有的通道，也需要手动io更新，还需要在多次更改间delay（delay的12不用变）
+
+不带扫频的库不需要
+
+### H7的Uart+DMA真有毒
+
+CPU的缓存会导致数据搬运了但实际是没有数的
 
 
 
-## 算数平均滤波法
+
+
+
+
+PSC 687
+
+ARR 2
+
+200145.5604hz
+
+
+
+
+
+21MHz SPI，现在改为25
+
+
 
